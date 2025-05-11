@@ -1,0 +1,71 @@
+.informasi-lanjut {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.informasi-lanjut h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.informasi-lanjut p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.informasi-lanjut ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.informasi-lanjut li {
+  margin-bottom: 5px;
+}
+
+.informasi-sekolah,
+.prestasi-sekolah,
+.informasi-kelas,
+.kelebihan-sekolah {
+  margin-bottom: 25px;
+}
+
+.prestasi-sekolah a {
+  color: #070f0e;
+  text-decoration: none;
+}
+
+.prestasi-sekolah a:hover {
+  text-decoration: underline;
+}
+
+.informasi-kelas h3 {
+  color: #28a745;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.kelebihan-sekolah strong {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Gaya tambahan untuk informasi akreditasi */
+.informasi-sekolah strong {
+  font-weight: bold;
+}
+
+.informasi-sekolah a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.informasi-sekolah a:hover {
+  text-decoration: underline;
+}

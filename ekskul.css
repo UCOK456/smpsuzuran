@@ -1,0 +1,92 @@
+.ekstrakurikuler {
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.ekstrakurikuler h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.ekstrakurikuler p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.daftar-ekskul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-ekskul {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: calc(33% - 20px); /* Untuk 3 kartu per baris, sesuaikan jika perlu */
+  min-width: 250px; /* Agar tetap responsif di layar kecil */
+}
+
+.card-ekskul img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #eee;
+}
+
+.card-ekskul h3 {
+  color: #333;
+  margin: 15px 10px;
+  text-align: center;
+}
+
+.card-ekskul p {
+  color: #666;
+  margin: 0 10px 15px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.card-ekskul a {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 0 0 8px 8px;
+  transition: background-color 0.3s ease;
+}
+
+.card-ekskul a:hover {
+  background-color: #0c58aa;
+}
+
+.catatan-ekskul {
+  font-size: 0.85em;
+  color: #777;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Responsive layout untuk layar yang lebih kecil */
+@media (max-width: 768px) {
+  .card-ekskul {
+    width: calc(50% - 20px); /* 2 kartu per baris di layar sedang */
+  }
+}
+
+@media (max-width: 576px) {
+  .card-ekskul {
+    width: 100%; /* 1 kartu per baris di layar kecil */
+  }
+}
